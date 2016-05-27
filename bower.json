@@ -1,0 +1,23 @@
+{
+  "name": "vimeo-test",
+  "description": "this is an AngularJS aplication that use the Vimeo API to get the basic categories and his videos",
+  "main": "gulpfile.js",
+  "authors": [
+    "Ricardo Valencia <ricardovaquin@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ricardovalquin/vimeo-test",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-ui-router": "^0.3.0",
+    "angular-bootstrap": "^1.3.3"
+  }
+}
