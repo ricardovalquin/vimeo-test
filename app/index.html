@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Talos Vimeo app</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport"
+        content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui"/>
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/normalize-css/normalize.css" />
+  <!-- endbower -->
+
+  <!-- inject:css -->
+  <link rel="stylesheet" href="assets/css/default.css">
+  <!-- endinject -->
+</head>
+
+  <body ng-app="angularTest">
+    <header-section></header-section>
+    <nav-bar></nav-bar>
+    <div class="main-app-container">
+      <div class="main-view" ui-view></div>
+    </div>
+    <footer></footer>
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <!-- endbower -->
+
+    <!-- inject:js -->
+    <script src="app.js"></script>
+    <!-- endinject -->
+  </body>
+</html>

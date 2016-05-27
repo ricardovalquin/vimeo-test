@@ -1,0 +1,19 @@
+
+html,
+body {
+  height: 100% !important;
+}
+
+
+
+//Variables declaration
+//break points
+$xs-max-width: (max-width 599px);
+$gt-xs-min-width: 600px;
+$sm-width-range: 600px 959px;
+$gt-sm-min-width: 960px;
+$md-width-range: 960px 1279px;
+$gt-md-min-width: 1280px;
+$lg-width-range: 1280px 1919px;
+$gt-lg-min-width: 1920px;
+$xl-min-width: 1920px;
