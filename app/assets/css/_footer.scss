@@ -1,0 +1,17 @@
+.footer-section {
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  padding-left: 10px;
+  width: calc(100% - 300px);
+  height: 30px;
+  background-color: $footer-bg-color;
+  border-top: $border-color;
+
+  .powered {
+    margin-top: 10px;
+    font-size: 12px;
+    color: gray;
+    padding-right: 10px;
+  }
+}

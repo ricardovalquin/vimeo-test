@@ -16,10 +16,10 @@
 
   <body ng-app="vimeoApp">
     <nav-bar></nav-bar>
-    <div class="main-app-container">
+      <div class="main-app-container">
       <header-section></header-section>
       <div class="main-view" ui-view></div>
-      <footer></footer>
+      <footer-section></footer-section>
     </div>
     <!-- bower:js -->
     <script src="bower_components/angular/angular.js"></script>
@@ -36,6 +36,8 @@
     <script src="shared/header/directive.js"></script>
     <script src="shared/nav-bar/directive.js"></script>
     <script src="shared/nav-bar/nav-bar-ctrl.js"></script>
+    <script src="shared/footer/controller.js"></script>
+    <script src="shared/footer/directive.js"></script>
     <!-- endinject -->
   </body>
 </html>

@@ -26,8 +26,9 @@ $xl-min-width: 1920px;
 
 // General variables
 $nav-bar-width: 300px;
-
-
+$header-bg-color: #fafafa;
+$footer-bg-color: #eeeeee;
+$border-color: #D2D2D2;
 
 .main-app-container {
   width: calc(100% - 300px);
@@ -38,5 +39,6 @@ $nav-bar-width: 300px;
 }
 
 //Import partials
-@import 'nav-bar';
+@import "nav-bar";
 @import "header";
+@import "footer";
