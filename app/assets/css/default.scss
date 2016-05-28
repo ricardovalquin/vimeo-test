@@ -1,9 +1,24 @@
+//
+//@font-face {
+//  font-family: "avenir-lt-std";
+//  src:url("../fonts/avenir-lt-std/AvenirLTStd-Book.woff");
+//  src:url("../fonts/avenir-lt-std/AvenirLTStd-Light.woff");
+//  src:url("../fonts/avenir-lt-std/AvenirLTStd-Medium.woff");
+//  font-weight: normal;
+//  font-style: normal;
+//
+//}
+
+* {
+  font-family: 'avenir-lt-std';
+  box-sizing: border-box;
+}
+
 
 html,
 body {
   height: 100% !important;
 }
-
 
 
 //Variables declaration
@@ -17,3 +32,12 @@ $gt-md-min-width: 1280px;
 $lg-width-range: 1280px 1919px;
 $gt-lg-min-width: 1920px;
 $xl-min-width: 1920px;
+
+
+// General variables
+$nav-bar-width: 300px;
+
+
+
+//Import partials
+@import 'nav-bar';
