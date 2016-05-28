@@ -29,5 +29,14 @@ $nav-bar-width: 300px;
 
 
 
+.main-app-container {
+  width: calc(100% - 300px);
+  background-color: white;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+}
+
 //Import partials
 @import 'nav-bar';
+@import "header";

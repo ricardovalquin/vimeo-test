@@ -15,12 +15,12 @@
 </head>
 
   <body ng-app="vimeoApp">
-    <header-section></header-section>
     <nav-bar></nav-bar>
     <div class="main-app-container">
+      <header-section></header-section>
       <div class="main-view" ui-view></div>
+      <footer></footer>
     </div>
-    <footer></footer>
     <!-- bower:js -->
     <script src="bower_components/angular/angular.js"></script>
     <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
@@ -29,9 +29,11 @@
 
     <!-- inject:js -->
     <script src="app.js"></script>
+    <script src="constants/environment.js"></script>
     <script src="services/categories.js"></script>
     <script src="services/oauth.js"></script>
-    <script src="constants/environment.js"></script>
+    <script src="shared/header/controller.js"></script>
+    <script src="shared/header/directive.js"></script>
     <script src="shared/nav-bar/directive.js"></script>
     <script src="shared/nav-bar/nav-bar-ctrl.js"></script>
     <!-- endinject -->
